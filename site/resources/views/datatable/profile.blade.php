@@ -169,6 +169,7 @@ $(document).ready(function() {
     $('.filter').multifilter();
 
     $('#datatable').DataTable( {
+        
         "scrollX": true,
         "pageLength": 50,
         "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]]
